@@ -14,8 +14,34 @@
  *= require_self
  */
 
-#navigation {
-	padding: 10px;
+#header {
+	text-align: center;
+}
+
+#menu {
+	height: 35px;
+	font-size: 16px;
+	font-family: Tahoma;
+	font-weight: bold;
+}
+
+#menu ul {
+	height: auto;
+	padding: 8px 0px;
+	margin: 0px;
+}
+
+#menu li {
+	display: inline;
+	padding: 20px;
+}
+
+#menu a {
+	text-decoration: none;
+}
+
+#menu a:hover {
+	color: blue;
 }
 
 #content {
