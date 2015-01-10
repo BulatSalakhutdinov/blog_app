@@ -7,9 +7,24 @@
 		<%= csrf_meta_tags %>
 	</head>
 	<body>
-		<%= render 'layouts/header' %>
-		<div>
-			<%= yield %>
+		<div id="content">
+			<%= render 'layouts/header' %>
+			<nav id="navigation">
+				<tr>
+					<td><%= link_to "Home", '#' %></td>
+					<td><%= link_to "Posts", '#' %></td>
+					<td><%= link_to "About", '#' %></td>
+					<td><%= link_to "Contact", '#' %></td>
+				</tr>
+			</nav>
+			<div>
+				<hr>
+					<blockquote>
+						<%= yield %>	
+					</blockquote>
+				<hr>	
+			</div>
 		</div>
 	</body>
+	<footer id="footer"><%= render 'layouts/footer' %></footer>
 </html>

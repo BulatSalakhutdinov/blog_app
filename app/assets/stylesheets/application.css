@@ -13,3 +13,18 @@
  *= require_tree .
  *= require_self
  */
+
+#navigation {
+	padding: 10px;
+}
+
+#content {
+	width: 1000px;
+	margin: 10px auto 50px;
+}
+#footer {
+	position: fixed;
+	text-align: center;
+	padding: 10px;
+	width: 100%;
+}
