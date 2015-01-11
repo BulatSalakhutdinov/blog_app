@@ -2,5 +2,6 @@
 <h3>Listing posts</h3><br>
 <% @posts.each do |post| %>
 	<p><strong>Title: </strong><%= post.title %></p>
-	<p><strong>Text: </strong><%= post.text %></p><br>
+	<p><strong>Text: </strong><%= post.text %></p>
+	<%= link_to "Show", post_path(post) %><br><br>
 <% end %>

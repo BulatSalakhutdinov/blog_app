@@ -49,8 +49,5 @@
 	margin: 10px auto 50px;
 }
 #footer {
-	position: fixed;
 	text-align: center;
-	padding: 10px;
-	width: 100%;
 }
