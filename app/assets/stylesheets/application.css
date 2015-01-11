@@ -14,8 +14,23 @@
  *= require_self
  */
 
-#header {
-	text-align: center;
+#header ul {
+	padding: 8px 0px;
+	margin: 0px;
+	float: right;
+	padding-right: 20px;
+}
+
+#header li {
+	display: inline;
+}
+
+#header a {
+	text-decoration: none;
+}
+
+#header a:hover {
+	color: blue;
 }
 
 #menu {
@@ -45,7 +60,7 @@
 }
 
 #content {
-	width: 1000px;
+	width: 1200px;
 	margin: 10px auto 50px;
 }
 #footer {
