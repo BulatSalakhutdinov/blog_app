@@ -32,6 +32,8 @@ group :assets do
 	gem 'twitter-bootstrap-rails'
 end
 
+gem 'bcrypt-ruby'
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
