@@ -1,9 +1,11 @@
 Rails.application.routes.draw do
 
   resources :posts
+  resources :users
   root 'welcome#home'
-  match '/about',   to: 'welcome#about', via: 'get'
+  match '/about',   to: 'welcome#about',   via: 'get'
   match '/contact', to: 'welcome#contact', via: 'get'
+  match '/signup',  to: 'users#new',       via: 'get'
   
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
